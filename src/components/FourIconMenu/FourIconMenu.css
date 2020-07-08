@@ -1,0 +1,51 @@
+.i4-c {
+    width: 320px;
+    height: 75px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    align-items: center;
+    margin: auto;
+
+}
+.i4-c i {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c6c6c6;
+}
+.i4-c i:nth-child(1) {
+    color: #000000;
+}
+
+@media all and (max-width: 1690px) {
+ 
+}
+@media all and (max-width: 1280px) {
+    .i4-c {
+      margin: auto !important;
+    }
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+    
+    .i4-c {
+        position: relative !important;
+        top: 0;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 375px) {
+    
+    .i4-c {
+        position: relative !important;
+        top: 0;
+        margin: auto;
+    }
+}

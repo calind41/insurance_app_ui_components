@@ -1,0 +1,92 @@
+.weekly-r-c {
+    width: 300px;
+    height: 340px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    position: relative;
+    /* top: 18%; */
+    margin: auto !important;
+
+}
+.weekly-r-c .dropdown {
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    position: relative;
+    left: 74%;
+    top: 20px;
+    color: gray;
+
+}
+.dropdown i {
+    font-size: 9.5px;
+    margin-left: 1px;
+}
+.weekly-r-c .amount-growth-c {
+    width: 57%;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+}
+.amount-growth-c .amount {
+    display: block;
+    font-size: 44px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.amount-growth-c .growth {
+    font-size: 12px;
+    color: gray;
+    display: block;
+    position: relative;
+    bottom: 1px;
+}
+.weekly-r-c .graph {
+    width: 90%;
+    height: 100px;
+}
+#myCanvas {
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+.work-days {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+}
+.work-days > span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+@media all and (max-width: 1690px) {
+ 
+}
+@media all and (max-width: 1280px) {
+ 
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+    .weekly-r-c {
+     
+    }
+}
+
+@media all and (max-width: 375px) {
+    .weekly-r-c {
+        position: relative;
+       margin-bototm: 10px !important;
+    }
+  
+  }

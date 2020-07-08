@@ -1,0 +1,90 @@
+.y-score-c {
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.half-circle {
+    width: 180px;
+    height: 90px; /* as the half of the width */
+    border-top-left-radius: 120px;  /* 100px of height + 20px of border */
+    border-top-right-radius: 120px; /* 100px of height + 20px of border */
+    border: 19px solid #37F640;
+    border-bottom: 0;
+
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.your-score {
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    top: 71.7%;
+    left: 10%;
+}
+.your-score > .score-val {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+}
+.your-score > div:nth-child(2) {
+    text-align: center;
+    font-size: 17px;
+    color: #acadae;
+    letter-spacing: 2px;
+}
+
+.y-score-c .txt {
+    width: 126%;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    right: 23px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.menu-icon {
+    font-size: 17px;
+    color: rgb(149, 147, 147);
+    position: absolute;
+    right:30px;
+    top: 20px;
+}
+
+@media all and (max-width: 1690px) {
+ 
+}
+@media all and (max-width: 1280px) {
+ 
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+    
+    .y-score-c {
+        position: relative !important;
+        top: 0;
+        margin: auto !important;
+    }
+}
+
+@media all and (max-width: 375px) {
+    
+    .y-score-c {
+        position: relative !important;
+        top: 0;
+        margin: auto !important;
+    }
+}
+

@@ -1,0 +1,146 @@
+.upload-c {
+    width: 400px;
+    height: 185px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #161617;
+    border-radius: 27px;
+    position: relative;
+}
+
+.row-1 {
+    /* border: 1px solid red; */
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.row-1 .circle {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 5px solid black;
+    box-shadow: 0 0 0 1px #989898;
+    position: relative;
+    left: 4px;
+}
+.circle i {
+    font-size: 18px;
+    position:  absolute;
+    top: 23%;
+    left: 27%;
+
+}
+
+.row-1 .progress {
+    width: 176px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #ffffff;
+
+}
+.row-1 .progress > div:nth-child(1) {
+    width: 100%;
+    height: 30px;
+}
+.row-1 .progress > div:nth-child(1) span:nth-child(1) {
+    display: inline-block;
+    width: 50px;
+    font-size: 20px;
+}
+.row-1 .progress > div:nth-child(1) span:nth-child(2) {
+    display: inline-block;
+    width: 100px;
+    color: #989898;
+    font-size: 15px;
+
+} 
+
+.row-1 .progress > div:nth-child(2) {
+    width: 100%;
+    height: 3.7px;
+    border-radius: 50px;
+    background-color: #989898;
+}
+.filled-amount {
+    width: 75%;
+    height: 3.7px;
+    background-color: #37F640;
+    border-radius: 50px;
+}
+
+.row-1 .pause-i {
+    background-color: #161617;
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    position: relative;
+    top: 2px;
+    right : 10px;
+    border: 1px solid  #989898;
+}
+.pause-i > div {
+    height: 13px;
+    width: 3px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.pause-i > div:nth-child(1){
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+.pause-i > div:nth-child(2) {
+    position: absolute;
+    top: 30%;
+    left: 57%;
+}
+.upload-c p {
+    position: absolute;
+    top: 50%;
+    left: 124px;
+    width: 200px;
+    display: block;
+    color: white;
+    font-size: 14px;
+}
+
+@media all and (max-width: 1690px) {
+    .upload-c {
+       margin: auto !important;
+       margin-top: 100px !important;
+    }
+}
+@media all and (max-width: 1280px) {
+ .upload-c {
+ }
+}
+@media all and (max-width: 980px) {
+    
+}
+@media all and (max-width: 736px) {
+    .upload-c {
+        position: relative;
+        left: 0;
+    }
+}
+@media all and (max-width: 480px) {
+    .upload-c {
+        position: relative;
+        left: 0;
+        margin: auto !important;
+    }
+}
+@media all and (max-width: 375px) {
+    .upload-c {
+        position: relative;
+        left: 0;
+        margin: auto !important;
+        width: 375px !important;
+    }
+}

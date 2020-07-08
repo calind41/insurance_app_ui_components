@@ -1,0 +1,18 @@
+.date-card-c {
+    width: 68px;
+    height: 95px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.date-card-c .date {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 14px;
+}
+.date-card-c .dayOfWeek {
+    font-size: 10px;
+    color: #000000;
+    text-align: center;
+    margin-top: 15px;
+}

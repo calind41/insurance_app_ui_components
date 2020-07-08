@@ -1,0 +1,128 @@
+.calendar-c {
+    width: 365px;
+    height:460px;
+    border-radius: 25px;
+    background-color: #ffffff;   
+    position: relative;
+    top: 5%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calendar-c .months {
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.months i {
+    font-size: 27px;
+    color: rgb(187, 187, 187);   
+}
+.months span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.calendar-c .week-days {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    height: 34px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-bottom: 0;
+}
+.calendar-c .grid-container {
+    width: 100%;
+    box-sizing: border-box;
+    height: 310px;
+    margin: auto;
+    position: relative;
+    left: 4px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 5px;
+    padding-left: 10px;
+    /* border: 2px solid red; */
+}
+.calendar-c .grid-container .grid-item {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    position: relative;
+    z-index: 10;
+}
+
+.black-color {
+    color: #000000 !important;
+}
+.green-dot {
+    display: inline-block;
+    position: absolute !important;
+    width: 4px !important;
+    height: 4px !important;
+    border-radius: 100% !important;
+    background-color: #37F640 !important;
+    top: 25px;
+    right: 18px;
+}
+.dark-bg2 {
+    background-color: #000000;
+    color: #ffffff !important;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 10px;
+    z-index: 100000 !important;
+}
+.gray-bg2:after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 39px;
+    border-radius: 10px;
+    background-color: gray;
+    opacity: .5;
+    right: -41px;
+    bottom: 10px;
+    z-index: 1 !important;
+}
+
+@media all and (max-width: 1690px) {
+ 
+}
+@media all and (max-width: 1280px) {
+ 
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+    .calendar-c {
+        position: relative;
+        margin: auto;
+        margin: auto !important;
+
+    }
+}
+@media all and (max-width: 375px) {
+    .calendar-c {
+        position: relative;
+        margin: auto !important;
+        /* left:  */
+    }
+  }

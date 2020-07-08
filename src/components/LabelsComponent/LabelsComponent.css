@@ -1,0 +1,92 @@
+.lbl-c {
+    width: 400px;
+    height: 170px;
+    background-color: #ffffff;
+    border-radius: 23px;
+    position: relative;
+    top: 20%;
+    margin: auto;
+   
+}
+
+.lbl-c .headerr {
+    width: 88%;
+    height: 20px;
+    margin: auto;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 18px;
+}
+.lbl-c .headerr span {
+    font-size: 16px;
+    font-weight: bold;
+}
+.lbl-c .headerr i {
+    margin-top: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: rgb(167, 166, 166);
+}
+
+.lbl-c .row1 {
+    margin-top: 43px;
+    margin-left: 16px;
+}
+.lbl-c .row1,
+.lbl-c .row2 {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.lbl-c .row1 > div, 
+.lbl-c .row2 > div {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1.15px solid rgb(147, 143, 143);
+    font-size: 12px;
+}
+.lbl-c .row2 {
+    margin-top: 10px;
+    margin-left: 16px;
+}
+.lbl-c .dark-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+@media all and (max-width: 1690px) {
+ 
+}
+@media all and (max-width: 1280px) {
+ 
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+    
+    .lbl-c {
+        position: relative !important;
+        top: 0;
+        margin: auto !important;
+    }
+}
+@media all and (max-width: 375px) {
+    
+    .lbl-c {
+        position: relative !important;
+        top: 0;
+        margin: auto !important;
+        width: 375px !important;
+    }
+}

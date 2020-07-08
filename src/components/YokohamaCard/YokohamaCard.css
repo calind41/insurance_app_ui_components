@@ -1,0 +1,79 @@
+.yokohama-cc {
+    width: 270px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    background-image: url('mountain.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+
+    border-radius: 27px;
+    box-shadow: 0 0 0 10px #ffffff;
+}
+
+.yokohama-cc .y-h {
+    width: 198px;
+    margin: auto;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    position: relative;
+    top: 50px;
+}
+
+.yokohama-cc .y-t {
+    color: #e7e0e0;
+    font-size: 13px;
+    width: 198px;
+    line-height: 17px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+.yokohama-cc .y-s {
+    width: 198px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #e7e0e0;
+    z-index: 10;
+    position: absolute;
+    bottom: 30px;
+    left: 37px;
+}
+.yokohama-cc .y-s > div {
+    width: 50%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #37F640;
+}
+
+@media all and (max-width: 1690px) {
+ 
+}
+@media all and (max-width: 1280px) {
+ 
+}
+@media all and (max-width: 980px) {
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 480px) {
+    
+    .yokohama-cc  {
+        position: relative !important;
+        top: 0;
+        margin: auto !important;
+    }
+}
+@media all and (max-width: 375px) {
+    
+    .yokohama-cc  {
+        position: relative !important;
+        top: 0;
+        margin: auto !important;
+    }
+}
