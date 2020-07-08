@@ -88,7 +88,6 @@ body {
     width: 480px;
     position: relative;
     /* left: 0; */
-    border: 2px solid blue;
     margin: auto !important;
   }
   .date-card-wrapper {
@@ -106,7 +105,6 @@ body {
     grid-template-columns: auto!important;
   }
   .grid-itm {
-    border: 1px solid red;
     width: 375px;
     position: relative;
     margin: auto !important;
